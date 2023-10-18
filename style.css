@@ -47,6 +47,7 @@ main{
     padding: 10px;
 }
 
+
 .screen p{
     color: white;
     text-align: end;
@@ -56,12 +57,14 @@ main{
     height: 33%;
     width: 100%;
     font-size: 150%;
+    overflow: auto;
 }
 
 #current{
     height: 66%;
     width: 100%;
     font-size: 400%;
+    overflow: auto;
 }
 
 .row{
