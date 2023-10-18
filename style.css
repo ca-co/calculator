@@ -9,10 +9,9 @@ header h1{
     position: fixed;
     width: 100vw;
     color: white;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     padding: 10px;
-    top: 2.5%;
 }
 
 main{
@@ -31,7 +30,7 @@ main{
     align-items: center;
     width: 60vh;
     max-width: 90vw;
-    height: 70vh;
+    height: 80vh;
     border: 3px solid white;
     border-radius: 20px;
     box-shadow: 10px 10px 20px black;
@@ -63,7 +62,7 @@ main{
 #current{
     height: 66%;
     width: 100%;
-    font-size: 400%;
+    font-size: 350%;
     overflow: auto;
 }
 
@@ -97,6 +96,11 @@ button:active{
 
 #delete, #clear{
     background-color: rgba(255, 0, 0, 0.4);
+}
+
+#equals{
+    width: 36%;
+    background-color: rgba(255, 166, 0, 0.5);
 }
 
 #equals{
