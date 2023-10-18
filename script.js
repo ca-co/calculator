@@ -21,7 +21,7 @@ const clear = document.getElementById("clear")
 
 var past = document.getElementById("past")
 var current = document.getElementById("current")
-var currentCal = "2"
+var currentCal = ""
 
 zero.addEventListener("click", () => {
     current.innerHTML += "0"
